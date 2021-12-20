@@ -9,9 +9,18 @@
 
 //   print("I'm $age and I'm $height m tall");
 // }
-void main() {
-  dynamic height = 1.70;
-  height = "1.72 m";
+// void main() {
+//   dynamic height = 1.70;
+//   height = "1.72 m";
 
-  print("I'm $height  tall");
+//   print("I'm $height  tall");
+// }
+//
+
+void main() {
+  int? buts;
+  buts = buts + 2;
+  if (buts != null) {
+    print(buts);
+  }
 }
